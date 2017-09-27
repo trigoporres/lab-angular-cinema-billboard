@@ -1,4 +1,6 @@
-[
+
+
+const movies: Object[] = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -17,7 +19,8 @@
       "Clancy Brown",
       "Gil Bellows"
     ]
-  }, {
+  },
+  {
     id: 2,
     title: "The Godfather",
     poster: "https://i.imgur.com/Uzvny9I.jpg",
@@ -71,7 +74,7 @@
       "Maggie Gyllenhaal",
       "Gary Oldman"
     ]
-  }, {
+  },
   {
     id: 5,
     title: "Schindler's List",
@@ -92,3 +95,6 @@
     ]
   }
 ]
+
+
+export default movies;
