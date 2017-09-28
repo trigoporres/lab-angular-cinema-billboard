@@ -11,10 +11,10 @@ import { Movie } from '../../servicies/movies';
 export class MyHomeComponentComponent implements OnInit {
   listMovie:any;
   constructor(private movie: Movie) {
-  this.listMovie = this.movie
 }
 
   ngOnInit() {
+    this.listMovie = this.movie.getmovies()
     console.log(this.listMovie)
   }
 

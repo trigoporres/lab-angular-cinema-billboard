@@ -1,0 +1,15 @@
+.movie{
+  width: 100%;
+}
+
+.movie ul{
+  width: 30%;
+  list-style: none;
+  padding: 0;
+  float: left;
+  margin-left: 2%;
+}
+
+.movie ul li img{
+  width: 100%;
+}

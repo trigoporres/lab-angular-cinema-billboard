@@ -3,7 +3,7 @@ import  movies  from '../sample-movies'
 
 @Injectable()
 export class Movie {
-  
+
   movies: Array<any> = [
     {
       id: 1,
@@ -109,11 +109,10 @@ export class Movie {
   ]
 
     constructor() {
-    this.movies = movies
   }
 
     getmovies(){
-      return movies
+      return this.movies
     }
 
     getmovie(id){
